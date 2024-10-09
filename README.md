@@ -1,5 +1,6 @@
-```mermaid
-sequenceDiagram
+    ```mermaid
+
+    sequenceDiagram
     participant Client as User
     participant Server1 as DHCP Server #1
     participant Server2 as DHCP Server #2
@@ -35,4 +36,5 @@ sequenceDiagram
 
     note "User  disconnects permanently"
     Client->>Client: Disconnect from network
-```
+
+    ```
